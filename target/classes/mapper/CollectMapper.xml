@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rong.mapper.CollectMapper">
+
+    <insert id="saveCollect">
+        insert into collect (id,bookId,bookName,userId,userName,collectStatus)
+        values(#{id},#{bookId},#{bookName},#{userId},#{userName},#{collectStatus})
+    </insert>
+    <update id="updateCollectStatus">
+        update collect set  collectStatus = #{collectStatus} where id = #{id}
+    </update>
+    <delete id="deleteCollect">
+        delete from collect where id = #{id}
+    </delete>
+    <select id="findCollectResult" resultType="com.rong.entity.Collect">
+        select * from collect where userId = #{userId} and bookId = #{bookId}
+    </select>
+</mapper>

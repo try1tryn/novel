@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rong.mapper.BookMapper">
+
+    <insert id="saveBook" parameterType="com.rong.entity.Book">
+        insert into book(id,bookName,bookImg,author,bookStatus,introduction,bookPath,readCount)
+        values(#{id},#{bookName},#{bookImg},#{author},#{bookStatus},#{introduction},#{bookPath},#{readCount})
+    </insert>
+    <update id="updateReadCount">
+        update
+           book
+        set
+           readCount = #{readCount}
+        where
+           id = #{id}
+    </update>
+    <select id="findReadCount" resultType="com.rong.entity.Book">
+        select
+            readCount readCount
+        from
+            book
+        where
+            id = #{id}
+    </select>
+    <select id="findBookDetail" resultType="com.rong.entity.Book">
+        select
+            id id,
+            bookName bookName,
+            bookImg bookImg,
+            author author,
+            bookStatus bookStatus,
+            introduction introduction,
+            bookPath bookPath,
+            readCount readCount
+         from
+            book
+          where
+            id = #{id}
+    </select>
+    <delete id="deleteBook">
+        delete from book where id = #{id}
+    </delete>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rong.mapper.ChapterMapper">
+    <insert id="saveChapter">
+        insert into book_chapter(id,bookId,chapter,chapterPath,bookName)
+        values(#{id},#{bookId},#{chapter},#{chapterPath},#{bookName})
+    </insert>
+    <select id="findChapterPath" resultType="com.rong.entity.Chapter">
+        select
+             id id,
+             bookId bookId,
+             chapter chapter,
+             chapterPath chapterPath,
+             bookName bookName
+        from
+             book_chapter
+        where
+             bookName = #{bookName} and chapter = #{chapter}
+    </select>
+</mapper>

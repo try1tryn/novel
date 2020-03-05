@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rong.mapper.UserMapper">
+    <insert id="savePublicUser">
+        insert into user(id,userName,password,author,member,phoneNumber)
+        values(#{id},#{userName},#{password},#{author},#{member},#{phoneNumber})
+    </insert>
+    <select id="findUser" resultType="com.rong.entity.User">
+        select
+            id id,
+            userName userName,
+            password password
+        from
+            user
+        <where>
+            <if test="userName != null and userName != ''">
+                and userName = #{userName}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+        </where>
+
+    </select>
+
+    <select id="findUserName" resultType="com.rong.entity.User">
+        select
+            id id,
+            userName userName,
+            password password
+        from
+            user
+        where
+            userName = #{userName}
+    </select>
+</mapper>
