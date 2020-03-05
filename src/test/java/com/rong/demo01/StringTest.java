@@ -50,11 +50,13 @@ public class StringTest {
      */
     public static String fun02(String str){
         String[] array = str.split("", str.length());
-        StringBuilder result = new StringBuilder();
+
 
         // 设置比较的字符对象
         String compareStr = array[0];
-        result.append(compareStr);
+
+        StringBuilder result = new StringBuilder(compareStr);
+
         for (int i = 1; i < array.length; i++) {
             // 只保存连续相同的第一个字符
             if(!compareStr.equals(array[i])){
@@ -88,11 +90,10 @@ public class StringTest {
      * @return
      */
     public static String fun04(String str){
-
-        return null;
+        return  new StringBuilder(str).reverse().toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(fun03("a1b  2c3dd4"));
+        System.out.println(fun04("a1b  2c3dd4"));
     }
 }
