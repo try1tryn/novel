@@ -93,7 +93,20 @@ public class StringTest {
         return  new StringBuilder(str).reverse().toString();
     }
 
+    /**
+     * 练习五：字符串比较
+     */
+    public static void fun05(){
+        String str = "Hello World";
+        String anotherString = "hello world";
+        Object objStr = str;
+
+        System.out.println( str.compareTo(anotherString) );
+        System.out.println( str.compareToIgnoreCase(anotherString) );  //忽略大小写
+        System.out.println( str.compareTo(objStr.toString()));
+    }
+
     public static void main(String[] args) {
-        System.out.println(fun04("a1b  2c3dd4"));
+        fun05();
     }
 }
