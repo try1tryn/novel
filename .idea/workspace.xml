@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a0a1962-f29e-4168-9e3f-f1e13a33f964" name="Default Changelist" comment="">
+    <list default="true" id="5a0a1962-f29e-4168-9e3f-f1e13a33f964" name="Default Changelist" comment="测试">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rong/common/DemoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rong/common/Md5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/Demo01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/Demo01Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rong/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rong/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rong/demo01/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rong/demo01/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rong/demo01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rong/demo01/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rong/demo01/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rong/demo01/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rong/Demo01Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rong/Demo01Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rong/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rong/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rong/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rong/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rong/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rong/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rong/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rong/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rong/demo01/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/rong/demo01/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rong/demo01/ThreadTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rong/demo01/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/rong/demo01/ThreadTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +42,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -49,9 +72,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.StringTest">
+  <component name="RunManager" selected="Application.Demo01Application">
     <configuration name="Demo01Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rong.Demo01Application" />
       <module name="demo01" />
@@ -59,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01ApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.Demo01ApplicationTests" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.StringTest" />
       <module name="demo01" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.StringTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.Test" />
       <module name="demo01" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.aa" />
+    <configuration name="Test.fun02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo01" />
       <extension name="coverage">
         <pattern>
@@ -114,16 +136,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.rong.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.Test" />
+      <option name="METHOD_NAME" value="fun02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rong.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rong.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.rong.demo01.Test" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.aa" />
+        <item itemvalue="JUnit.Test.fun02" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.Test.main" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.Demo01ApplicationTests" />
+        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,26 +200,57 @@
       <option name="project" value="LOCAL" />
       <updated>1583415954241</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试">
+      <created>1583417027451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583417027451</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1583417347549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583417347549</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试a">
+      <created>1583418050677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583418050677</updated>
+    </task>
+    <task id="LOCAL-00005" summary="字符串练习四">
+      <created>1583418641517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583418641517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="字符串练习">
+      <created>1583485709557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583485709557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="小说网站" />
-    <option name="LAST_COMMIT_MESSAGE" value="小说网站" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="测试a" />
+    <MESSAGE value="字符串练习四" />
+    <MESSAGE value="字符串练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串练习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577457245320">
+    <state x="530" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1585380462201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577457245320" />
-    <state x="530" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1581584650663">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="530" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581584650663" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577457208460">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1577457208460" />
+    <state x="530" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585380462201" />
     <state x="266" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578448048223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -185,18 +259,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="101" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578207973895" />
-    <state x="299" y="6" key="CommitChangelistDialog2" timestamp="1583415952921">
+    <state x="299" y="6" key="CommitChangelistDialog2" timestamp="1586585643560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583415952921" />
+    <state x="299" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586585643560" />
     <state x="299" y="61" key="DBNavigator.ProjectSettingsDialog" timestamp="1578014990339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="61" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578014990339" />
-    <state width="728" height="466" key="DebuggerActiveHint" timestamp="1583401053438">
+    <state width="728" height="466" key="DebuggerActiveHint" timestamp="1585841075283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="728" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1583401053438" />
+    <state width="728" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1585841075283" />
+    <state x="37" y="69" key="DiffContextDialog" timestamp="1583418649276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="37" y="69" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1583418649276" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1583416800894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,69 +283,93 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="642" y="303" width="272" height="217" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1583416010744" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1585841000038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585841000038" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1585841000038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1583414686256">
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585841000038" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1585841000038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583414686256" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585841000038" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1585841000038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.1.bottom" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585841000038" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1585841067628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.1.center" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585841067628" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1585841067628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.1.left" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585841067628" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1585841067628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state width="1493" height="226" key="GridCell.Tab.1.right" timestamp="1583414686257">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585841067628" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1585841067628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583414686257" />
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1581669444720">
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585841067628" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1585377042516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1581669444720" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1585377042516" />
     <state x="408" y="110" key="NewModule_or_Project.wizard" timestamp="1583416794202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="110" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1583416794202" />
-    <state x="352" y="13" width="1101" height="714" key="SettingsEditor" timestamp="1583416596254">
+    <state x="352" y="13" width="1101" height="714" key="SettingsEditor" timestamp="1585472212119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="352" y="13" width="1101" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583416596254" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1577518622651">
+    <state x="352" y="13" width="1101" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585472212119" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1586585570564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1577518622651" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1583389909384">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586585570564" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586585541215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583389909384" />
-    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1578365745461">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586585541215" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583417041141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578365745461" />
-    <state x="327" y="174" width="872" height="366" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577610600729">
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1583417041141" />
+    <state x="337" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585839816412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="327" y="174" width="872" height="366" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1577610600729" />
-    <state x="347" y="-1" key="search.everywhere.popup" timestamp="1578014927789">
+    <state x="337" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1585839816412" />
+    <state x="447" y="11" width="782" height="801" key="find.popup" timestamp="1585838367799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="347" y="-1" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578014927789" />
+    <state x="447" y="11" width="782" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585838367799" />
+    <state x="489" y="204" key="git4idea.merge.GitPullDialog" timestamp="1583418017437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="489" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1583418017437" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585472906432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585472906432" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rong/service/impl/BookServiceImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo01$StringTest.ic" NAME="StringTest Coverage Results" MODIFIED="1583842184897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rong.demo01.*</FILTER>
+    </SUITE>
   </component>
 </project>

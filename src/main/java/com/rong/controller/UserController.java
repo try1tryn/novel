@@ -4,7 +4,6 @@ package com.rong.controller;
 import com.rong.annotation.PassToken;
 import com.rong.common.*;
 import com.rong.entity.*;
-import com.rong.service.CollectService;
 import com.rong.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

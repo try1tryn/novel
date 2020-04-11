@@ -19,6 +19,20 @@ public class Book {
     /**阅读量**/
     private Integer readCount;
 
+    public Book() {
+    }
+
+    public Book(String id, String bookName, String bookPath, String author, String bookStatus, String bookImg, String introduction, Integer readCount) {
+        this.id = id;
+        this.bookName = bookName;
+        this.bookPath = bookPath;
+        this.author = author;
+        this.bookStatus = bookStatus;
+        this.bookImg = bookImg;
+        this.introduction = introduction;
+        this.readCount = readCount;
+    }
+
     public Integer getReadCount() {
         return readCount;
     }

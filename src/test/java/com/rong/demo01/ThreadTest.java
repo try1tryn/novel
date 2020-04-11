@@ -1,10 +1,13 @@
 package com.rong.demo01;
 
+import com.rong.entity.Book;
 import com.sun.corba.se.spi.orbutil.threadpool.ThreadPool;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.stream.Collectors;
 
 /**
  * @Description:
@@ -13,22 +16,22 @@ import java.util.concurrent.Executors;
  **/
 public class ThreadTest {
 
-    public static void main(String[] args) {
-            ExecutorService  fixedThreadPool =Executors. newFixedThreadPool(3);
-            for (int i =1; i<=5;i++){
-                final int index=i ;
-                fixedThreadPool.execute(new Runnable(){
-                    @Override
-                    public void run() {
-                        try {
-                            System.out.println("第" +index + "个线程" +Thread.currentThread().getName());
-                            Thread.sleep(1000);
-                        }  catch(InterruptedException  e ) {
-                            e .printStackTrace();
-                        }
-                    }
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        List<Book> list = new ArrayList<>();
+        list.add(new Book("aaaaaa","a","在那里","图图","1","ss","s",1));
+        list.add(new Book("bbbbbb","b","在那里","图图","1","ss","s",1));
+        list.add(new Book("cccccc","c","在那里","图图","1","ss","s",1));
 
-                });
-            }
+        /**
+         * 将list转为map
+         */
+        Map<String, Book> collect = Optional.ofNullable(list).orElse(Collections.emptyList()).stream().collect(Collectors.toMap(Book::getId, book -> book));
+        System.out.println();
+
+        ExecutorService service = Executors.newCachedThreadPool();
+        Lock lock = new ReentrantLock();
+        lock.lock();
+        lock.unlock();
+
     }
 }

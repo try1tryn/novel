@@ -1,6 +1,11 @@
 package com.rong.demo01;
 
+import net.minidev.json.JSONUtil;
 import org.junit.platform.commons.util.StringUtils;
+
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @Description: 字符串练习
@@ -12,6 +17,7 @@ public class StringTest {
      * 练习一：“aabbccdaa” -> “a2b2c2d1a2”
      * 1 寻找连续相同的字符串
      * 2 统计相同字符串的个数
+     *
      * @param str
      * @return String
      */
@@ -45,10 +51,11 @@ public class StringTest {
      * 练习二：“aabbccdaa” -> “abcda” 去除连续相同的字符
      * 1 寻找连续相同的字符串
      * 2 连续相同的字符只保留一个
+     *
      * @param str
      * @return String
      */
-    public static String fun02(String str){
+    public static String fun02(String str) {
         String[] array = str.split("", str.length());
 
 
@@ -59,7 +66,7 @@ public class StringTest {
 
         for (int i = 1; i < array.length; i++) {
             // 只保存连续相同的第一个字符
-            if(!compareStr.equals(array[i])){
+            if (!compareStr.equals(array[i])) {
                 result.append(array[i]);
                 // 重置比较的字符对象
                 compareStr = array[i];
@@ -70,16 +77,17 @@ public class StringTest {
 
     /**
      * 练习三：统计字符串中数字个数
+     *
      * @param str
      * @return int
      */
-    public static int fun03(String str){
+    public static int fun03(String str) {
         int count = 0;
         char[] array = str.toCharArray();
         for (char s : array) {
             // 若字符是数字 则累加
-            if(Character.isDigit(s)){
-                count ++;
+            if (Character.isDigit(s)) {
+                count++;
             }
         }
         return count;
@@ -87,26 +95,23 @@ public class StringTest {
 
     /**
      * 练习四：字符串逆置
+     *
      * @return
      */
-    public static String fun04(String str){
-        return  new StringBuilder(str).reverse().toString();
+    public static String fun04(String str) {
+        return new StringBuilder(str).reverse().toString();
     }
 
     /**
-     * 练习五：字符串比较
+     * 集合
+     * @param args
      */
-    public static void fun05(){
-        String str = "Hello World";
-        String anotherString = "hello world";
-        Object objStr = str;
-
-        System.out.println( str.compareTo(anotherString) );
-        System.out.println( str.compareToIgnoreCase(anotherString) );  //忽略大小写
-        System.out.println( str.compareTo(objStr.toString()));
-    }
 
     public static void main(String[] args) {
-        fun05();
+
+        Map map1 = new HashMap();
+        Stream.of("1","2","3").map(k->Integer.valueOf(k)*2).forEach(System.out::println);
+        List<String> stringStream = (List<String>)Stream.of("1s", "2a", "3s", "张11", "哈哈哈").collect(Collectors.toList());
+        System.out.println();
     }
 }

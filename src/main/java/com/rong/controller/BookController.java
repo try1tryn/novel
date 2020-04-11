@@ -188,5 +188,10 @@ public class BookController {
         return new Result<>(true, StatusCode.OK, "查询小说详情成功", bookDetail);
     }
 
+    @RequestMapping("/saveBook")
+    public Result saveBook(@RequestBody Book book){
+        bookService.saveBook(book);
+        return new Result<>(true, StatusCode.OK, "保存成功");
+    }
 
 }
